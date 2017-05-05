@@ -1,0 +1,60 @@
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 20px;
+	background-color: #673AB7;
+}
+
+body {
+	text-align: center;
+}
+
+
+.search-form {
+	max-width: 400px;
+	margin: 50px auto;
+}
+
+input {
+	width: 100%;
+	padding: 5%;
+}
+
+input.search {
+	border: 10px solid  #F7F7F7;
+	border-radius: 5px;
+	 box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+	 font-size: 2rem;
+	 text-align: center;
+
+}
+
+.suggestions {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.suggestions li {
+	background: white;
+	list-style: none;
+	border-bottom: 1px solid #D8D8D8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    margin-left: 15%;
+    padding:20px;
+    transition:background 0.2s;
+    display:flex;
+    justify-content:space-between;
+    text-transform: capitalize;
+}
+
+.hl {
+	background: #ffc600;
+}
